@@ -15,3 +15,22 @@ int main()
     printf("Not an alphabet");
     return 0;
 }
+
+OR
+
+#include <stdio.h>
+#include <ctype.h>
+
+int main()
+{
+    char input;
+    printf("Enter input: ");
+    scanf("%c", &input);
+    
+    if(isalpha(input))
+    printf("Alphabet");
+    else
+    printf("Not an alphabet");
+    return 0;
+}
+
