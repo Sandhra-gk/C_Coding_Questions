@@ -1,7 +1,6 @@
 // Check if the entered character is an alphabet or not
 
 #include <stdio.h>
-#include <ctype.h>
 
 int main()
 {
